@@ -1,0 +1,19 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "se/meetup",
+  "title": "Meetup Info",
+  "category": "widgets",
+  "icon": "calendar",
+  "description": "Zeigt Datum, Speaker, Anmeldung und Aufzeichnung eines Meetups an.",
+  "editorScript": "file:./build/editor.js",
+  "editorStyle": "file:./build/editor.css",
+  "style": "file:./build/style.css",
+  "attributes": {
+    "date": { "type": "string", "default": "" },
+    "speaker": { "type": "string", "default": "" },
+    "registrationUrl": { "type": "string", "default": "" },
+    "recordingUrl": { "type": "string", "default": "" },
+    "description": { "type": "string", "source": "html", "selector": ".meetup-description" }
+  }
+}
