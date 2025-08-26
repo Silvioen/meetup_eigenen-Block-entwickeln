@@ -5,6 +5,7 @@
 └─ blocks/
    └─ meetup-block/
       ├─ block.json
+      ├─ package.json
       ├─ src/
       │  └─ index.js
       ├─ build/   (nach `npm run build` erzeugt)
