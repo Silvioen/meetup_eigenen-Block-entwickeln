@@ -1,4 +1,4 @@
-# Guttenberg Block Erstellen
+# Gutenberg Block Erstellen
 
 ```php
 /wp-content/themes/your-theme/
