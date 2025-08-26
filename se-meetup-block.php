@@ -1,5 +1,14 @@
 <?php
-// functions.php (oder plugin bootstrap)
+/**
+ * Plugin Name: Meetup Info
+ * Description: Zeigt Datum, Speaker, Anmeldung und Aufzeichnung eines Meetups an.
+ * Author:      Silvio Endruhn
+ * Author URI:  https://endruhn.de/
+ * License:     GNUGPLv3
+ * License URI: http://www.gnu.org/licenses/gpl-3.0
+ * Version:     1.0
+ **/
+
 
 // 1) Block registrieren (Pfad anpassen: child/theme oder plugin)
 function se_register_meetup_block() {
